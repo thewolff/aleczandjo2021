@@ -14,7 +14,11 @@ import { StaticImage } from "gatsby-plugin-image"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+type LayoutProps = {
+  children: React.ReactNode
+}
+
+const Layout = ({ children }: LayoutProps) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -26,11 +30,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <Parallax strength={200}>
-      <Background className="custom-bg" bgImageStyle={{ width: "1650px" }}>
+    <Parallax strength={400}>
+      <Background className="custom-bg">
         <StaticImage
           src="../images/wedding-bg2.png"
-          width={1778}
+          width={1800}
           quality={95}
           formats={["auto", "webp", "avif"]}
           alt="A Gatsby astronaut"
@@ -46,15 +50,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
       </div>
     </Parallax>
   )

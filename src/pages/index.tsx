@@ -26,7 +26,7 @@ const IndexPage = () => (
         </p>
         <p>October 16th, 2021 @ 4PM</p>
         <p className="flush-bottom">
-          <strong>Where</strong>
+          <strong>Where</strong>:
         </p>
         <p className="flush-bottom">The Lotte Hotel</p>
         <p className="flush-bottom">809 5th Ave</p>
