@@ -27,7 +27,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
     >
       <h2 style={{ margin: 0 }}>
         <Link
-          to="/story"
+          to="/rsvp"
           style={{
             color: `gold`,
             textDecoration: `none`,
@@ -39,7 +39,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
       </h2>
       <h2 style={{ margin: 0 }}>
         <Link
-          to="/rsvp"
+          to="/story"
           style={{
             color: `gold`,
             textDecoration: `none`,
