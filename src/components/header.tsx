@@ -27,7 +27,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
     >
       <h2 style={{ margin: 0 }}>
         <Link
-          to="/rsvp"
+          to="/story"
           style={{
             color: `gold`,
             textDecoration: `none`,
@@ -35,6 +35,18 @@ const Header = ({ siteTitle }: HeaderProps) => (
           }}
         >
           RSVP
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0 }}>
+        <Link
+          to="/rsvp"
+          style={{
+            color: `gold`,
+            textDecoration: `none`,
+            fontFamily: "Bad Script",
+          }}
+        >
+          Our story
         </Link>
       </h2>
       <h1 style={{ margin: 0 }}>
@@ -59,6 +71,18 @@ const Header = ({ siteTitle }: HeaderProps) => (
           }}
         >
           Venue
+        </Link>
+      </h2>
+      <h2 style={{ margin: 0 }}>
+        <Link
+          to="/menu"
+          style={{
+            color: `gold`,
+            textDecoration: `none`,
+            fontFamily: "Bad Script",
+          }}
+        >
+          Menu
         </Link>
       </h2>
     </div>

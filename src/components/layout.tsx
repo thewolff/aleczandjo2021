@@ -37,7 +37,7 @@ const Layout = ({ children }: LayoutProps) => {
           width={1800}
           quality={95}
           formats={["auto", "webp", "avif"]}
-          alt="A Gatsby astronaut"
+          alt="Spooky bouquet"
           style={{ marginBottom: `1.45rem` }}
         />
       </Background>

@@ -31,6 +31,14 @@ const IndexPage = () => (
         <p className="flush-bottom">The Lotte Hotel</p>
         <p className="flush-bottom">809 5th Ave</p>
         <p>Seattle, WA 98104</p>
+        <p className="flush-bottom">
+          <strong>Dress code</strong>:
+        </p>
+        <p>
+          As you may know, Alecz and Jo are pretty spooky.If you've got fancy
+          goth gear? Wear it! Otherwise, come fancy (suits, ties, dress shirts,
+          slacks, dresses, cultist hoods).
+        </p>
       </div>
     </div>
   </Layout>

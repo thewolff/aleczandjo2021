@@ -604,6 +604,14 @@ pre tt:after {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .venue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
 .container {
   border: 1px solid gold;
   padding: 16px;
@@ -649,4 +657,11 @@ select {
   flex-direction: row;
   align-items: baseline;
   margin-left: 16px;
+}
+
+a {
+  color: gold;
+}
+.venue a {
+  display: block;
 }

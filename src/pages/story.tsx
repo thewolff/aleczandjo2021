@@ -12,7 +12,7 @@ type DataProps = {
   }
 }
 
-const Venue: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
     <div className="venue">
@@ -40,7 +40,7 @@ const Venue: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   </Layout>
 )
 
-export default Venue
+export default Menu
 
 export const query = graphql`
   {
