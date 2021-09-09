@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div>
       <div className="text container">
-        <h1>Welcome, weary traveller!</h1>
+        <h1>Welcome!</h1>
         <p>
           As you may have heard Jo Wolff is getting married to Alecz Rose! We've
           built this site as a one-stop shop for all related wedding
