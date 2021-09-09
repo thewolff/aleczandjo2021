@@ -602,13 +602,25 @@ pre tt:after {
   .container {
     width: 50%;
   }
-}
-
-@media only screen and (min-width: 768px) {
   .venue {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+  .wide {
+    display: flex;
+  }
+  .base {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wide {
+    display: none;
+  }
+  .base {
+    display: flex;
   }
 }
 
