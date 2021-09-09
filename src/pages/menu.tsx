@@ -15,27 +15,53 @@ type DataProps = {
 const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
-    <div className="venue">
+    <div className="menu">
       <div className="text container">
-        <h1>Venue</h1>
+        <h1>Menu</h1>
         <p>
-          We're getting married at the Sanctuary at the Lotte Hotel. It's moody,
-          it's spacious, and it has a pipe organ that may or may not be haunted.
-          In other words? It's perfect.
+          Good news! We've personally tried everything here and can confirm it
+          is all amazing! Here's what's in store:
         </p>
-        <p className="flush-bottom">Lotte Hotel</p>
-        <p className="flush-bottom">809 5th Ave</p>
-        <p>Seattle, WA 98104</p>
-        <a href="https://g.page/lotte-hotel-seattle?share">Get directions</a>
-        <a href="#">Reserve a room</a>
+        <h2>Soups</h2>
+        <p className="flush-bottom">
+          <strong>Heirloom Squash Soup GF VG</strong>
+        </p>
+        <p>Cippolini Onion Confit, Fine Herbs, Pistou</p>
+        <h2>Salads</h2>
+        <p className="flush-bottom">
+          <strong>Organic Baby Greens GF</strong>
+        </p>
+        <p>
+          Fried Brussel Sprouts, Compressed Apple, Aged Cheddar, Pancetta
+          Dressing
+        </p>
+        <h2>Entrees</h2>
+        <p className="flush-bottom">
+          <strong>King Salmon GF</strong>
+        </p>
+        <p>
+          Roasted Heirloom Carrots, Pasrnip Confit, Hazelnut Dukkah, Bearnaise
+          Espuma
+        </p>
+        <p className="flush-bottom">
+          <strong>Organic Chicken Breast GF</strong>
+        </p>
+        <p>Celery Root, Parisian Gnocchi, Brussels Sprouts, Black Truffle</p>
+        <p className="flush-bottom">
+          <strong>Beef Tenderloin GF</strong>
+        </p>
+        <p>Celery Root, King Trumpet, Fried Artichoke, Sunchoke, Salsa Verde</p>
+        <h2>Dessert</h2>
+        <p className="flush-bottom">
+          <strong>Lemon drop cake</strong>
+        </p>
+        <p className="flush-bottom">
+          <strong>Zephyr Gateaux cupcakes</strong>
+        </p>
+        <p className="flush-bottom">
+          <strong>Dessert bar goodies</strong>
+        </p>
       </div>
-      <StaticImage
-        src="../images/lotte.jpg"
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="Spooky bouquet"
-        style={{ marginBottom: `1.45rem`, marginLeft: "16px", width: "60%" }}
-      />
     </div>
   </Layout>
 )

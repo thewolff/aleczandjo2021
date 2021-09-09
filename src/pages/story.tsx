@@ -12,35 +12,33 @@ type DataProps = {
   }
 }
 
-const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
+const Story: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
-    <div className="venue">
+    <div className="story">
       <div className="text container">
-        <h1>Venue</h1>
+        <h1>Our story</h1>
         <p>
-          We're getting married at the Sanctuary at the Lotte Hotel. It's moody,
-          it's spacious, and it has a pipe organ that may or may not be haunted.
-          In other words? It's perfect.
+          Alecz and Jo met in an unconventional manner, to say the least. Jo was
+          in a houseboat in Amsterdam, several thousand miles away from Alecz
+          who was at home in Washington.
         </p>
-        <p className="flush-bottom">Lotte Hotel</p>
-        <p className="flush-bottom">809 5th Ave</p>
-        <p>Seattle, WA 98104</p>
-        <a href="https://g.page/lotte-hotel-seattle?share">Get directions</a>
-        <a href="#">Reserve a room</a>
+        <p>
+          They began by discussing Batman, (of which Jo still maintains Kevin
+          Conroy is the ultimate bats), and really haven't stopped texting
+          since. After an extremely nervous lunch at Japonessa they've been
+          inseparable.
+        </p>
+        <p>
+          They now reside in Seattle with their partner, Jasper, two beautiful
+          children, and three problematic cats.
+        </p>
       </div>
-      <StaticImage
-        src="../images/lotte.jpg"
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt="Spooky bouquet"
-        style={{ marginBottom: `1.45rem`, marginLeft: "16px", width: "60%" }}
-      />
     </div>
   </Layout>
 )
 
-export default Menu
+export default Story
 
 export const query = graphql`
   {
