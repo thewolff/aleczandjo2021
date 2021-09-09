@@ -677,3 +677,8 @@ a {
 .venue a {
   display: block;
 }
+
+.main {
+  display: flex;
+  align-items: flex-start;
+}

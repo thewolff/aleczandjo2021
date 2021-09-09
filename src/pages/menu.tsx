@@ -15,7 +15,7 @@ type DataProps = {
 const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
-    <div className="menu">
+    <div className="menu main">
       <div className="text container">
         <h1>Menu</h1>
         <p>

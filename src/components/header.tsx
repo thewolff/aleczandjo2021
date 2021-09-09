@@ -107,12 +107,14 @@ const Header = ({ siteTitle }: HeaderProps) => (
       <div
         style={{
           margin: `0 auto`,
-          width: 960,
+          width: "100%",
+          minWidth: 1024,
           padding: `1.45rem 1.0875rem`,
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-evenly",
           alignItems: "flex-end",
+          justifySelf: "center",
         }}
       >
         <h2 style={{ margin: 0 }}>
