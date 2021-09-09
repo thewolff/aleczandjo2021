@@ -55,16 +55,6 @@ const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
           <strong>Vegan Option</strong>
         </p>
         <p>Available upon request</p>
-        <h2>Dessert</h2>
-        <p className="flush-bottom">
-          <strong>Lemon drop cake</strong>
-        </p>
-        <p className="flush-bottom">
-          <strong>Zephyr Gateaux cupcakes</strong>
-        </p>
-        <p className="flush-bottom">
-          <strong>Dessert bar goodies</strong>
-        </p>
       </div>
     </div>
   </Layout>
