@@ -14,7 +14,7 @@ type DataProps = {
 
 const Story: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
-    <Seo title="Using TypeScript" />
+    <Seo title="Alecz and Jo 20201 - Our story" />
     <div className="story">
       <div className="text container">
         <h1>Our story</h1>

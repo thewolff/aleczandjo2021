@@ -26,7 +26,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
           alignItems: "flex-end",
         }}
       >
-        <h1 style={{ margin: 0, fontSize: "36px" }}>
+        <h1 style={{ margin: 0 }}>
           <Link
             to="/"
             style={{
@@ -50,7 +50,6 @@ const Header = ({ siteTitle }: HeaderProps) => (
           <h2
             style={{
               margin: 0,
-              fontSize: "20px",
             }}
           >
             <Link
@@ -64,7 +63,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
               RSVP
             </Link>
           </h2>
-          <h2 style={{ margin: 0, fontSize: "20px" }}>
+          <h2 style={{ margin: 0 }}>
             <Link
               to="/story"
               style={{
@@ -76,7 +75,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
               Our story
             </Link>
           </h2>
-          <h2 style={{ margin: 0, fontSize: "20px" }}>
+          <h2 style={{ margin: 0 }}>
             <Link
               to="/venue"
               style={{
@@ -88,7 +87,7 @@ const Header = ({ siteTitle }: HeaderProps) => (
               Venue
             </Link>
           </h2>
-          <h2 style={{ margin: 0, fontSize: "20px" }}>
+          <h2 style={{ margin: 0 }}>
             <Link
               to="/menu"
               style={{
