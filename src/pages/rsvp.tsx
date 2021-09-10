@@ -13,7 +13,7 @@ type DataProps = {
 
 const RSVP: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
-    <Seo title="RSVP" />
+    <Seo title="Alecz and Jo 20201 - RSVP" />
     <h1>RSVP</h1>
     <form
       action="https://getform.io/f/5d736a35-7f44-4ba3-8fa8-59d852070147"
