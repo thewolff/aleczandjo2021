@@ -19,9 +19,9 @@ const Venue: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       <div className="text container">
         <h1>Venue</h1>
         <p>
-          We're getting married at the Sanctuary at the Lotte Hotel. It's moody,
-          it's spacious, and it has a pipe organ that may or may not be haunted.
-          In other words? It's perfect.
+          The venue is the Sanctuary at the Lotte Hotel. It's an enchanting
+          space that features a massive gothic organ, stained glass, and corners
+          that grab onto the darkness and hold it.
         </p>
         <p className="flush-bottom">Lotte Hotel</p>
         <p className="flush-bottom">809 5th Ave</p>

@@ -19,19 +19,17 @@ const Story: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       <div className="text container">
         <h1>Our story</h1>
         <p>
-          Alecz and Jo met in an unconventional manner, to say the least. Jo was
-          in a houseboat in Amsterdam, several thousand miles away from Alecz
-          who was at home in Washington.
+          Alecz and Jo first met, separated by miles and boundless oceans,
+          illuminated by the moon. Jo was in Amsterdam, Alecz in Washington.
+          Fate brought them together.
         </p>
         <p>
-          They began by discussing Batman, (of which Jo still maintains Kevin
-          Conroy is the ultimate bats), and really haven't stopped texting
-          since. After an extremely nervous lunch at Japonessa they've been
-          inseparable.
+          They began talking to one another and have't stopped since, connected
+          at the heart by the gossamer strands of love.
         </p>
         <p>
-          They now reside in Seattle with their partner, Jasper, two beautiful
-          children, and three problematic cats.
+          They now reside in Seattle with their partner, Jasper, and two
+          beautiful children.
         </p>
       </div>
     </div>

@@ -15,6 +15,10 @@ const RSVP: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Alecz and Jo 20201 - RSVP" />
     <h1>RSVP</h1>
+    <p>
+      Please fill the below form out for every member of your party (including
+      children and +1s)
+    </p>
     <form
       action="https://getform.io/f/5d736a35-7f44-4ba3-8fa8-59d852070147"
       method="POST"
@@ -22,15 +26,15 @@ const RSVP: React.FC<PageProps<DataProps>> = ({ data, path }) => (
     >
       <div className="input">
         <label>Name</label>
-        <input type="text" name="name" />
+        <input type="text" name="name" required />
       </div>
       <div className="input">
         <label>E-mail</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" required />
       </div>
       <div className="input">
         <label>Phone number</label>
-        <input type="tel" name="phone" />
+        <input type="tel" name="phone" required />
       </div>
       <div className="input checkbox">
         <label>Are you staying at the hotel?</label>
