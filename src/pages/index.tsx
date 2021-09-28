@@ -17,10 +17,10 @@ const IndexPage = () => (
           union, their love, and the life that courses through their veins.
         </p>
         <p>
-          Please RSVP and let us know which dinner you'll be having, or check
-          out the venue (and reserve a room!) at the links above. Children and
-          +1s are welcome, RSVP them as well to include them in our final
-          headcdount.
+          Please <Link to="/rsvp">RSVP</Link> and let us know which dinner
+          you'll be having, or check out the venue (and reserve a room!) at the
+          links above. Children and +1s are welcome, RSVP them as well to
+          include them in our final headcdount.
         </p>
         <h2>Details</h2>
         <p className="flush-bottom">
