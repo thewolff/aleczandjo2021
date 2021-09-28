@@ -10,15 +10,17 @@ const IndexPage = () => (
     <Seo title="Alecz and Jo 20201 - Home" />
     <div>
       <div className="text container">
-        <h1>Welcome!</h1>
+        <h1>I will not let you go into the unknown alone</h1>
         <p>
-          As you may have heard Jo Wolff is getting married to Alecz Rose! We've
-          built this site as a one-stop shop for all related wedding
-          information.
+          In the velvet darkness of the blackest night two souls discovered
+          light in the distance: each other. We invite you to celebrate their
+          union, their love, and the life that courses through their veins.
         </p>
         <p>
-          Please RSVP and let us know which delicious dinner you'll be having,
-          or check out the venue (and reserve a room!) at the links above.
+          Please RSVP and let us know which dinner you'll be having, or check
+          out the venue (and reserve a room!) at the links above. Children and
+          +1s are welcome, RSVP them as well to include them in our final
+          headcdount.
         </p>
         <h2>Details</h2>
         <p className="flush-bottom">
@@ -35,9 +37,7 @@ const IndexPage = () => (
           <strong>Dress code</strong>:
         </p>
         <p>
-          As you may know, Alecz and Jo are pretty spooky.If you've got fancy
-          goth gear? Wear it! Otherwise, come fancy (suits, ties, dress shirts,
-          slacks, dresses, cultist hoods).
+          Black tie, fancy attire. Come dressed in your finest and celebrate.
         </p>
       </div>
     </div>

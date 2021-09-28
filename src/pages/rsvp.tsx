@@ -15,6 +15,10 @@ const RSVP: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Alecz and Jo 20201 - RSVP" />
     <h1>RSVP</h1>
+    <p>
+      Please fill the below form out for every member of your party (including
+      children and +1s)
+    </p>
     <form
       action="https://getform.io/f/5d736a35-7f44-4ba3-8fa8-59d852070147"
       method="POST"

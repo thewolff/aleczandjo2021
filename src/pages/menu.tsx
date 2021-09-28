@@ -19,8 +19,8 @@ const Menu: React.FC<PageProps<DataProps>> = ({ data, path }) => (
       <div className="text container">
         <h1>Menu</h1>
         <p>
-          Good news! We've personally tried everything here and can confirm it
-          is all amazing! Here's what's in store:
+          Everything listed below is positively delectable. Please refer to this
+          menu when making your dining choices.
         </p>
         <h2>Soups</h2>
         <p className="flush-bottom">
