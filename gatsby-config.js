@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Alecz and Jo 2021`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Alecz and Jo cordially invite you to the goth wedding of their dreams.`,
     author: `@gatsbyjs`,
     siteUrl: `https://aleczandjo2021.com/`,
   },
